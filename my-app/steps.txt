@@ -1,0 +1,7 @@
+1. https://nodejs.org/en/  -> node LTS install
+2. cmd ->  node --version  
+3. cmd ->  npm --version  
+4. CMD -> npm install -g @angular/cli
+5. Cmd d:angular> -> ng new my-app
+
+======================================
