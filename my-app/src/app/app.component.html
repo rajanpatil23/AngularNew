@@ -10,9 +10,10 @@
 -->
 
   <!-- Directive : angular's Att -> *ngFor="let product of products" -->
-  <h1 *ngFor="let product of products">
-    {{ product }}
-  </h1>
+  <div *ngFor="let product of products" class="prod-card">
+    <p>Product ID: {{ product.prodId }}</p>
+    <p>Product Name:{{ product.prodName }}</p>
+  </div>
 </div>
 <div id="div4" class="cls">Banner Two</div>
 <div id="div5" class="cls">Contact Us</div>

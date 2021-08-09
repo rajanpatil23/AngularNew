@@ -8,5 +8,9 @@ import { Component, NgModule } from '@angular/core';
 export class MyComponent {
   title = 'Hello Angular...!';
 
-  products = ['Mobile', 'Laptop', 'Books'];
+  products = [
+    { prodId: 1001, prodName: 'Mobile' },
+    { prodId: 1002, prodName: 'Laptop' },
+    { prodId: 1003, prodName: 'Books' },
+  ];
 }
