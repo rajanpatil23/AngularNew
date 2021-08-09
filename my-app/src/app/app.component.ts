@@ -14,3 +14,5 @@ export class MyComponent {
     { prodId: 1003, prodName: 'Books' },
   ];
 }
+
+// Bootstrap
