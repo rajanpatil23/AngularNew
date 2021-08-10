@@ -15,6 +15,7 @@
     class="prod-card"
     [class.bg-color]="product.showClass"
   >
+    <!-- class.classname = yes/no -->
     <p>Product ID: {{ product.prodId }}</p>
     <p [ngStyle]="{ color: product.isVeg ? 'green' : 'red' }">
       Product Name :{{ product.prodName }}
