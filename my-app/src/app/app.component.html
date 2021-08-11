@@ -1,5 +1,10 @@
-<div id="div1" class="cls">Nav</div>
-<div id="div2" class="cls">Banner One</div>
+<!-- nav -->
+<app-nav></app-nav>
+
+<!-- banner-one -->
+<app-banner-one></app-banner-one>
+
+<!-- products -->
 <div id="div3" class="cls">
   <!-- data binding : interpollation -->
   {{ title }}
@@ -8,6 +13,11 @@
       document.write(product)
   } 
 -->
+  <hr />
+  <h1 align="center" onclick="alert('hey..!')">
+    We have {{ calc() }} ptoducts in our stock...!
+  </h1>
+  <hr />
 
   <!-- Directive : angular's Att -> *ngFor="let product of products" -->
   <div
@@ -52,7 +62,15 @@
     </span>
   </div>
 </div>
+
+<!-- banner-two -->
 <div id="div4" class="cls">Banner Two</div>
+
+<!-- contact-us -->
 <div id="div5" class="cls">Contact Us</div>
+
+<!-- banner-three -->
 <div id="div6" class="cls">Banner Three</div>
+
+<!-- footer -->
 <div id="div7" class="cls">Footer</div>

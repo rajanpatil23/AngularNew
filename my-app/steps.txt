@@ -6,3 +6,11 @@
 6. cd my-app
 7. my-app > ng serve --open
 ======================================
+
+creating component
+
+1. open my-app in terminal
+2. ng g c layout/nav
+3. copy 'nav' code from app.copm.html to nav.copm.html
+4. copy 'app-nav' selector and paste it to app.copm.html
+5. same for rest all

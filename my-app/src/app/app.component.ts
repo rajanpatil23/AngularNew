@@ -20,7 +20,7 @@ export class MyComponent {
     {
       prodId: 1002,
       prodName: 'Laptop',
-      inStock: 10,
+      inStock: 1234,
       country: 'Germany',
       isVeg: false,
       showClass: true,
@@ -34,6 +34,14 @@ export class MyComponent {
       showClass: true,
     },
   ];
+
+  calc() {
+    let totProds = 0;
+    for (let product of this.products) {
+      totProds = totProds + product.inStock;
+    }
+    return totProds;
+  }
 }
 
 // Bootstrap
